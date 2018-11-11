@@ -25,9 +25,9 @@ Calentar elemento seleccionado en la sartén
 
 Rellenar elemento (panqueques con manjar)
 
-Servir elemento*(nota) de la sarten (panqueque)
+Servir elemento(*1) de la sarten (panqueque)
 
-Seleccionar un elemento distinto al anterior (sin repetición
+Seleccionar un elemento distinto al anterior sin repetición
 
 ¿El elemento sirve para hacer jugo de naranja?
 
@@ -35,23 +35,23 @@ si es no -> seleccionar un nuevo elemento distinto a los anteriores sin repetici
 
 si es sí ->  cortar elemento 
 
-Preparar elemento (jugo de naranja)
+Preparar elemento seleccionado
 
-Servir elemento* (jugo de naranja)
+Servir elemento (jugo de naranja)
 
 Seleccionar un elemento sin utilizar
 
-¿elemento se puede calentar y complementar?
+¿elemento se puede calentar y complementar(*2)?
 
 si es no -> seleccionar otro elemento sin repetición
 
 si es sí ->  calentar elemento (pan)
 
-Seleccionar un elementosin utilizar restante (quedan 2; agua para cafe y palta)
+Seleccionar un elemento sin utilizar restante (quedan 2; agua para cafe y palta)
 
 ¿el elemento sirve para café?
 
-si es no -> seleccionar un elemento distinto al anterior
+si es no -> seleccionar un elemento distinto al anterior sin repetición
 
 si es si -> preparar elemento (cafe)
 
@@ -61,12 +61,13 @@ Cortar elemento seleccionado (palta)
 
 Moler elemento (palta)
 
-Preparar mezcla de elementos complementarios (pan con palta
+Preparar mezcla de elementos complementarios 
 
-Servir elemento* líquido y caliente (café)
+Servir elemento líquido y caliente (café)
 
-Servir elemento* complementado (pan con palta)
+Servir elemento complementado (pan con palta)
 
 Bon Appetit!
 
 *servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados.
+* elemento complementario ---> elementos que forman parte de un conjunto. En este caso el pan y la palta pertenecen al conjunto "pan con palta".
