@@ -69,5 +69,5 @@ Servir el conjunto de elementos complementarios (pan con palta)
 
 Bon Appetit!
 
-*servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
+* servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
 * elemento complementario ---> elementos que forman parte de un conjunto. En este caso el pan y la palta pertenecen al conjunto "pan con palta".
