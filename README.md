@@ -19,13 +19,13 @@ si es no -> seleccionar un elemento distinto al anterior sin repetición
 
 si es sí -> preparar elemento (masa)
 
-Calentar sarten
+Calentar la sarten
 
 Calentar elemento seleccionado en la sartén
 
 Rellenar elemento (panqueques con manjar)
 
-Servir elemento(*1) de la sarten (panqueque)
+Servir elemento(*1)
 
 Seleccionar un elemento distinto al anterior sin repetición
 
@@ -41,33 +41,33 @@ Servir elemento (jugo de naranja)
 
 Seleccionar un elemento sin utilizar
 
-¿elemento se puede calentar y complementar(*2)?
+¿El elemento se puede calentar y es complementario(*2)?
 
 si es no -> seleccionar otro elemento sin repetición
 
 si es sí ->  calentar elemento (pan)
 
-Seleccionar un elemento sin utilizar restante (quedan 2; agua para cafe y palta)
+Seleccionar un elemento no procesado anteriormente (quedan 2; cafe y palta)
 
 ¿el elemento sirve para café?
 
 si es no -> seleccionar un elemento distinto al anterior sin repetición
 
-si es si -> preparar elemento (cafe)
+si es sí -> preparar elemento (cafe)
 
-Seleccionar un elemento restante (palta)
+Seleccionar el elemento restante (palta)
 
 Cortar elemento seleccionado (palta)
 
-Moler elemento (palta)
+Moler elemento 
 
 Preparar mezcla de elementos complementarios 
 
 Servir elemento líquido y caliente (café)
 
-Servir elemento complementado (pan con palta)
+Servir el conjunto de elementos complementarios (pan con palta)
 
 Bon Appetit!
 
-*servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados.
+*servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
 * elemento complementario ---> elementos que forman parte de un conjunto. En este caso el pan y la palta pertenecen al conjunto "pan con palta".
