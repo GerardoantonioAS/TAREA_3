@@ -1,5 +1,5 @@
 # TAREA_3 
-usar todas las acciones, no se puede enfriar nada
+
 Realice un algoritmo que tenga como objetivo realizar un desayuno, el cual
 debe contener café , pan caliente con palta, porción de panqueques rellenos
 con manjar y un vaso de jugo de naranja. Las acciones que pueden utilizar
