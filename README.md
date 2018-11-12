@@ -27,7 +27,7 @@ Rellenar elemento (panqueques con manjar)
 
 Servir elemento(*1)
 
-Seleccionar un elemento distinto al anterior sin repetición
+Seleccionar un elemento distinto al anterior 
 
 ¿El elemento sirve para hacer jugo de naranja?
 
