@@ -19,7 +19,7 @@ si es no -> seleccionar un elemento distinto al anterior sin repetición
 
 si es sí -> preparar elemento (masa)
 
-Calentar la sarten
+Calentar la sartén
 
 Calentar elemento seleccionado en la sartén
 
