@@ -7,7 +7,7 @@ son; preparar, rellenar, servir, moler, calentar, calentar sartén y cortar, las
 cuales podrán utilizar más de una vez, salvo “calentar sartén”.
 
 
-Elementos (masa de panqueque; cafe; naranjas; pan; palta) ; elementos [pan, palta] pertecen al subconjunto "Pan con Palta"
+Elementos (masa de panqueque; café; naranjas; pan; palta) ; elementos [pan, palta] pertecen al subconjunto "Pan con Palta"
 
 INICIO
 
@@ -47,7 +47,7 @@ si es no -> seleccionar otro elemento sin repetición
 
 si es sí ->  calentar elemento (pan)
 
-Seleccionar un elemento no procesado anteriormente (quedan 2; cafe y palta)
+Seleccionar un elemento no procesado anteriormente (quedan 2; café y palta)
 
 ¿el elemento sirve para café?
 
