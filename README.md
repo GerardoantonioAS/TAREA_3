@@ -7,17 +7,31 @@ son; preparar, rellenar, servir, moler, calentar, calentar sartén y cortar, las
 cuales podrán utilizar más de una vez, salvo “calentar sartén”.
 
 
-Elementos (masa de panqueque; café; naranjas; pan; palta) ; elementos [pan, palta] pertecen al subconjunto "Pan con Palta"
+Elementos (huevos; harina ; café; naranjas; pan; palta) ; elementos [pan, palta] pertecen al subconjunto(*1) B="Pan con Palta"
+elementos [huevos, harina] pertenecen al subconjunto A="masa para panqueque"
 
 INICIO
+Seleccionar un elemento
+
+¿El elemento pertenece al subconjunto A?
+
+Si es no-> seleccionar un elemento distinto al anterior sin repetición
+
+Si es sí-> seleccionar un segundo elemento que permanezca al subconjunto A
+
+¿El elemento pertenece al subconjunto A?
+
+si es no-> seleccionar un elemento distinto al anterior sin repetición
+
+Si es sí-> preparar mezcla de ambos elementos -> nuevo elemento creado="subconjunto A"
 
 Seleccionar un elemento
 
 ¿El elemento sirve para hacer panqueque?
 
-si es no -> seleccionar un elemento distinto al anterior sin repetición
+Si es no -> seleccionar un elemento distinto al anterior sin repetición
 
-si es sí -> preparar elemento (masa)
+Si es sí -> preparar elemento 
 
 Calentar la sartén
 
@@ -25,15 +39,15 @@ Calentar elemento seleccionado en la sartén
 
 Rellenar elemento (panqueques con manjar)
 
-Servir elemento(*1)
+Servir subconjunto A(*2)
 
 Seleccionar un elemento distinto al anterior 
 
 ¿El elemento sirve para hacer jugo de naranja?
 
-si es no -> seleccionar un nuevo elemento distinto a los anteriores sin repetición
+Si es no -> seleccionar un nuevo elemento distinto a los anteriores sin repetición
 
-si es sí ->  cortar elemento 
+Si es sí ->  cortar elemento 
 
 Preparar elemento seleccionado
 
@@ -41,19 +55,19 @@ Servir elemento (jugo de naranja)
 
 Seleccionar un elemento sin utilizar
 
-¿El elemento se puede calentar y es complementario(*2)?
+¿El elemento se puede calentar y es complementario(*3)?
 
-si es no -> seleccionar otro elemento sin repetición
+Si es no -> seleccionar otro elemento sin repetición
 
-si es sí ->  calentar elemento (pan)
+Si es sí ->  calentar elemento (pan)
 
 Seleccionar un elemento no procesado anteriormente (quedan 2; café y palta)
 
-¿el elemento sirve para café?
+¿El elemento sirve para café?
 
-si es no -> seleccionar un elemento distinto al anterior sin repetición
+Si es no -> seleccionar un elemento distinto al anterior sin repetición
 
-si es sí -> preparar elemento (cafe)
+Si es sí -> preparar elemento (cafe)
 
 Seleccionar el elemento restante (palta)
 
@@ -61,13 +75,15 @@ Cortar elemento seleccionado (palta)
 
 Moler elemento 
 
-Preparar mezcla de elementos complementarios 
+Preparar mezcla de elementos complementarios -> nuevo elemento creado="subconjunto B"
 
 Servir elemento líquido y caliente (café)
 
-Servir el subconjunto de elementos complementarios (pan con palta)
+Servir el subconjunto B
 
 Bon Appetit!
 
-* servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
-* elemento complementario ---> elementos que forman parte de un subconjunto.
+*subconjunto ---> Estos subconjuntos son un elemento creado a partir de la mezcla y/o preparación de  2 elementos específicos.
+*servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
+* elemento complementario ---> elementos que forman parte de un subconjunto. 
+
