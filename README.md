@@ -83,7 +83,7 @@ Servir el subconjunto B
 
 Bon Appetit!
 
-*subconjunto ---> Estos subconjuntos son un elemento creado a partir de la mezcla y/o preparación de  2 elementos específicos.
-*servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
+* subconjunto ---> Estos subconjuntos son un elemento creado a partir de la mezcla y/o preparación de  2 elementos específicos.
+* servir elemento ---> elemento que ha finalizado su proceso de elaboración. No aparecerá en la lista de selección de elementos en procesos futuros dado que los recursos ya han sido utilizados. Mientras no se complete el proceso de servir, se entiende que está en preparación.
 * elemento complementario ---> elementos que forman parte de un subconjunto. 
 
